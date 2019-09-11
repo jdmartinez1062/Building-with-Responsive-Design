@@ -1,0 +1,396 @@
+@font-face{
+  font-family: Avalon;
+  src: url("avalon-bold.woff");
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1;
+}
+
+body {
+  font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
+  background: #fff;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+.layout {
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.nav-container {
+  background: #fff;
+  height: auto;
+}
+
+.nav-bar-top-container {
+  background: #131313;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-twn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: space-between;
+  height: 32px;
+}
+
+.nav-twn li:first-child {
+  margin-left: 20px;
+}
+
+.nav-twn li {
+  margin-left: 12px;
+}
+
+.is-active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.928571428571429rem;
+}
+
+.nav-bar-top-links {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: 0.928571428571429rem;
+}
+
+.nav-company {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-around;
+  height: 32px;
+  margin-left: 40px;
+}
+
+.nav-bar-center {
+  color: #555555;
+  height: 48px;
+}
+.nav-bar-center ul{
+  font-family: "Shentox", sans-serif;
+}
+.ul-row{
+  display: flex;
+  align-items: center;
+}
+.ul-row li{
+
+  display: inherit;
+  align-items: center;
+}
+.nav-bar-center li:first-child {
+
+  padding-left: 20px;
+  padding-right: 12px;  
+
+}
+.nav-bar-center li{
+
+  padding: 0 12px;
+  height: max-content;
+ 
+}
+
+.nav-bar-center a{
+  text-transform: uppercase;
+  font-size: 15px; 
+  color:#AAA; 
+}
+
+.nav-bar-bottom {
+  background: #ffdd33;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-bottom a{
+  font: 13px "Arimo", "Helvetica Neue", Arial, sans-serif;
+  color: #000;
+  letter-spacing: 0.01em;
+  margin-left: 20px;
+}
+.width-65{
+  width:66%;
+  height: 60vh;
+  margin:4px;
+}
+.width-35{
+  width:34%;
+  height: max-content;
+  margin:4px;
+}
+.main-container {
+  border: 1px solid blue;
+  height: 5161px;
+  background: inherit;
+}
+.footer-container {
+  height: 258px;
+  border: 1px solid green;
+}
+
+.main-new{
+  
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iphone11-796x419.jpg) 0 100% no-repeat;
+  background-size: cover;
+  
+}
+.rel{
+  position:relative;
+}
+
+.clicker{
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  width: 100%;
+}
+
+.gradient{
+  background :rgba(0,0,0,.25) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) 0 100% no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 58.1vh;
+  
+}
+
+.gradient div:nth-child(2){
+  margin-left: 20px;
+  position: absolute;
+  bottom: 4px;
+  
+}
+
+.gradient div.cover-logo{
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) 0 0 no-repeat;
+  background-size: contain;
+  margin: 0;
+  width: 50%;
+  height: 96px;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  z-index: 4;
+}
+
+.gradient h5{
+  text-transform: uppercase;
+  font: 14px "Shentox", sans-serif;
+  color:#fff;
+}
+
+.main-new-title{
+  margin-bottom: 10px;
+}
+.main-new-title a{
+  font: 56px "Avalon", sans-serif;
+  color:#fff;
+  line-height: 56px;
+}
+
+span.small-icon{
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background: url( https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-size: 1296px 1296px;
+}
+span.clock{
+  background-position: -160px -160px;
+}
+span.share{
+  background-position: -912px -912px;
+}
+
+.row p{
+  display: inline-block;
+}
+.bot-list{  
+  padding-bottom: 20px;
+  color: rgb(255,255,255);
+  font: 13px "Arimo", "Helvetica Neue", Arial, sans-serif;
+}
+.bot-list a{  
+  
+  color: rgb(255,255,255);
+  
+}
+.bot-list li:first-child{  
+  
+  margin-left: 0;
+  
+}
+.bot-list li{  
+  
+  margin-left: 12px;
+  
+}
+.bot-list li > p{  
+  
+  margin-right: 4px;
+  
+}
+.bot-list li span > p{  
+  
+  margin-left: 4px;
+  
+}
