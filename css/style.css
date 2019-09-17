@@ -2,6 +2,7 @@
   font-family: Avalon;
   src: url("avalon-bold.woff");
 }
+
 html,
 body,
 div,
@@ -104,24 +105,29 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -136,15 +142,17 @@ body {
   font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
   background: #fff;
 }
+
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-decoration: none;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
   font-family: inherit;
@@ -221,84 +229,85 @@ a{
 }
 
 .nav-bar-center {
-  color: #555555;
+  color: #555;
   height: 48px;
 }
-.nav-bar-center ul{
+
+.nav-bar-center ul {
   font-family: "Shentox", sans-serif;
 }
-.ul-row{
+
+.ul-row {
   display: flex;
   align-items: center;
 }
-.ul-row li{
 
+.ul-row li {
   display: inherit;
   align-items: center;
 }
+
 .nav-bar-center li:first-child {
-
   padding-left: 20px;
-  padding-right: 12px;  
-
+  padding-right: 12px;
 }
-.nav-bar-center li{
 
+.nav-bar-center li {
   padding: 0 12px;
   height: max-content;
- 
 }
 
-.nav-bar-center a{
+.nav-bar-center a {
   text-transform: uppercase;
-  font-size: 15px; 
-  color:#AAA; 
+  font-size: 15px;
+  color: #aaa;
 }
 
 .nav-bar-bottom {
-  background: #ffdd33;
+  background: #fd3;
   height: 30px;
   display: flex;
   align-items: center;
 }
 
-.nav-bar-bottom a{
+.nav-bar-bottom a {
   font: 13px "Arimo", "Helvetica Neue", Arial, sans-serif;
   color: #000;
   letter-spacing: 0.01em;
   margin-left: 20px;
 }
-.width-65{
-  width:66%;
-  margin:1px 4px 4px 7px;
-  
-  
+
+.width-65 {
+  width: 66%;
+  margin: 1px 4px 4px 7px;
 }
-.width-35{
-  width:33%;
+
+.width-35 {
+  width: 33%;
   margin: 1px 4px 0 4px;
   height: 58.1vh;
 }
+
 .main-container {
- background: inherit;
+  background: inherit;
 }
+
 .footer-container {
   height: 258px;
   border: 1px solid green;
 }
 
-.main-new{
-  
-  background:   url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iphone11-796x419.jpg) 0 100% no-repeat;
+.main-new {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/iphone11-796x419.jpg) 0 100% no-repeat;
   background-size: cover;
   background-clip: content-box;
-  
-}
-.rel{
-  position:relative;
 }
 
-.clicker{
+.rel {
+  position: relative;
+}
+
+.clicker {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -308,15 +317,16 @@ a{
   z-index: 2;
   background-clip: content-box;
 }
-.width-65>div{
+
+.width-65 > div {
   height: 58.1vh;
 }
-.width-35>div{
+
+.width-35 > div {
   height: 50%;
-   
 }
-.width-35 div.first-side-new
-{
+
+.width-35 div.first-side-new {
   background: #fff url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Iraqi_voters_inked_fingers-Cropped-796x419.jpg") no-repeat;
   background-size: cover;
   background-clip: content-box;
@@ -324,23 +334,19 @@ a{
   padding: 0 0 4px 0;
 }
 
-.width-35 .first-side-new .clicker{
-  
+.width-35 .first-side-new .clicker {
   height: auto;
-  top:0;
+  top: 0;
   bottom: 4px;
-  
 }
 
-.width-35 .second-side-new .clicker{
-  
+.width-35 .second-side-new .clicker {
   height: auto;
-  top:4px;
+  top: 4px;
   bottom: 0;
-  
 }
-.width-35 .second-side-new
-{
+
+.width-35 .second-side-new {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/pic-796x417.png");
   background-position: 50% 50%;
   background-size: contain;
@@ -349,7 +355,7 @@ a{
   padding: 4px 0 0 0;
 }
 
-.gradient{
+.gradient {
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
   background-size: cover;
   background-clip: content-box;
@@ -362,7 +368,7 @@ a{
   width: 100%;
 }
 
-p.date{
+p.date {
   position: absolute;
   color: #fff;
   float: right;
@@ -370,18 +376,16 @@ p.date{
   right: 15px;
   font: 14px "Arimo", "Helvetica Neue", Arial, sans-serif;
   z-index: 9;
-  
 }
-.bot-stick{
-  
+
+.bot-stick {
   margin-left: 20px;
   position: absolute;
   bottom: 4px;
   z-index: 6;
- 
 }
 
-div.cover-logo{
+div.cover-logo {
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) 0 0 no-repeat;
   background-size: contain;
   margin: 0;
@@ -393,74 +397,74 @@ div.cover-logo{
   z-index: 4;
 }
 
-.bot-stick h5{
-  
+.bot-stick h5 {
   text-transform: uppercase;
   font: 14px "Shentox", sans-serif;
-  color:#fff;
+  color: #fff;
 }
 
-.main-new-title{
+.main-new-title {
   margin-bottom: 10px;
 }
-.main-new-title a{
+
+.main-new-title a {
   font: 56px "Avalon", sans-serif;
-  color:#fff;
+  color: #fff;
   line-height: 56px;
 }
+
 .side-new-title {
   margin-bottom: 10px;
 }
-.side-new-title a{
+
+.side-new-title a {
   font: 28px "Avalon", sans-serif;
-  color:#fff;
+  color: #fff;
   line-height: 28px;
 }
 
-span.small-icon{
+span.small-icon {
   display: inline-block;
   height: 16px;
   width: 16px;
-  background: url( https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
   background-size: 1296px 1296px;
 }
-span.clock{
+
+span.clock {
   background-position: -160px -160px;
 }
-span.share{
+
+span.share {
   background-position: -912px -912px;
 }
 
-.row p{
+.row p {
   display: inline-block;
 }
-.bot-list{  
+
+.bot-list {
   padding-bottom: 20px;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   font: 13px "Arimo", "Helvetica Neue", Arial, sans-serif;
 }
-.bot-list a{  
-  
-  color: rgb(255,255,255);
-  
+
+.bot-list a {
+  color: rgb(255, 255, 255);
 }
-.bot-list li:first-child{  
-  
+
+.bot-list li:first-child {
   margin-left: 0;
-  
 }
-.bot-list li{  
-  
+
+.bot-list li {
   margin-left: 12px;
-  
 }
-.bot-list li > p{  
-  
+
+.bot-list li > p {
   margin-right: 4px;
-  
 }
-.bot-list li span > p{  
-  
+
+.bot-list li span > p {
   margin-left: 4px;
-  
 }
