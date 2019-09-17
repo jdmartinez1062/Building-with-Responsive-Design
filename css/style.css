@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: Avalon;
   src: url("avalon-bold.woff");
 }
@@ -272,16 +272,15 @@ a{
   width:66%;
   margin:1px 4px 4px 7px;
   
+  
 }
 .width-35{
   width:33%;
-  height: max-content;
-  margin:4px;
+  margin: 1px 4px 0 4px;
+  height: 58.1vh;
 }
 .main-container {
-  
-  
-  background: inherit;
+ background: inherit;
 }
 .footer-container {
   height: 258px;
@@ -297,38 +296,92 @@ a{
 }
 .rel{
   position:relative;
-  
 }
 
 .clicker{
   position: absolute;
-  top: 25%;
-  height: 50%;
+  height: 100%;
   width: 100%;
+  background: rgba(0, 0, 0, 0.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  mix-blend-mode: normal;
+  z-index: 2;
+  background-clip: content-box;
+}
+.width-65>div{
+  height: 58.1vh;
+}
+.width-35>div{
+  height: 50%;
+   
+}
+.width-35 div.first-side-new
+{
+  background: #fff url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Iraqi_voters_inked_fingers-Cropped-796x419.jpg") no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  background-position: 0% 50%;
+  padding: 0 0 4px 0;
+}
+
+.width-35 .first-side-new .clicker{
+  
+  height: auto;
+  top:0;
+  bottom: 4px;
+  
+}
+
+.width-35 .second-side-new .clicker{
+  
+  height: auto;
+  top:4px;
+  bottom: 0;
+  
+}
+.width-35 .second-side-new
+{
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/pic-796x417.png");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-clip: content-box;
+  background-size: cover;
+  padding: 4px 0 0 0;
 }
 
 .gradient{
-  background:rgba(0, 0, 0, 0.25) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat; url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png) no-repeat;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
   background-size: cover;
   background-clip: content-box;
   position: relative;
-  height: 58.1vh;
-  
+  mix-blend-mode: lighten;
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
-.date{
+
+p.date{
+  position: absolute;
   color: #fff;
   float: right;
-  margin: 15px 15px;
+  top: 15px;
+  right: 15px;
   font: 14px "Arimo", "Helvetica Neue", Arial, sans-serif;
+  z-index: 9;
+  
 }
 .bot-stick{
+  
   margin-left: 20px;
   position: absolute;
   bottom: 4px;
+  z-index: 6;
  
 }
 
-.gradient div.cover-logo{
+div.cover-logo{
   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg) 0 0 no-repeat;
   background-size: contain;
   margin: 0;
@@ -340,7 +393,8 @@ a{
   z-index: 4;
 }
 
-.gradient h5{
+.bot-stick h5{
+  
   text-transform: uppercase;
   font: 14px "Shentox", sans-serif;
   color:#fff;
@@ -353,6 +407,14 @@ a{
   font: 56px "Avalon", sans-serif;
   color:#fff;
   line-height: 56px;
+}
+.side-new-title {
+  margin-bottom: 10px;
+}
+.side-new-title a{
+  font: 28px "Avalon", sans-serif;
+  color:#fff;
+  line-height: 28px;
 }
 
 span.small-icon{
