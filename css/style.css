@@ -520,6 +520,7 @@ span.share {
 .story {
   height: 227px;
   width: 270px;
+  flex: 1 1 100%;
 }
 
 .story-image {
@@ -534,6 +535,7 @@ span.share {
   width: 100%;
   margin-bottom: 8px;
   position: relative;
+  flex: 1 1 100%;
 }
 
 .story-title {
@@ -545,6 +547,7 @@ span.share {
   overflow-wrap: break-word;
   word-wrap: break-word;
   color: #000;
+  flex: 1 1 100%;
 }
 
 .story-bottom {
@@ -556,12 +559,14 @@ span.share {
   width: 270px;
   height: 24px;
   align-items: flex-end;
+  flex: 1 1 100%;
 }
 
 .story-bottom li {
   display: flex;
   align-items: flex-end;
   height: 20px;
+  flex: 1 1 100%;
 }
 
 .story-bottom li:first-child {
@@ -599,4 +604,10 @@ span.share {
   pointer-events: none;
   z-index: 1;
   opacity: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .latest-row {
+    flex-flow: column wrap;
+  }
 }
