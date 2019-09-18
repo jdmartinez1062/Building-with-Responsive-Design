@@ -693,14 +693,33 @@ span.share {
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.float-left{
-  float:left;
-  background:url(https://index.tnwcdn.com/images/bc9fa84b022e57d2ff307ac8f481bd324a52ea7d.jpg);
-  background-size:contain;
+.float-left {
+  float: left;
+  background-size: contain;
   height: 60px;
   width: 60px;
   z-index: 2;
   margin: -30px 0 -30px 10px;
+}
+
+.index .col:nth-child(1) .float-left {
+  background: url(https://index.tnwcdn.com/images/bc9fa84b022e57d2ff307ac8f481bd324a52ea7d.jpg);
+  background-size: contain;
+}
+
+.index .col:nth-child(2) .float-left {
+  background: url(https://index.tnwcdn.com/images/040f5aed3fe59c6845a2c253adbfd326a9d35694.jpg);
+  background-size: contain;
+}
+
+.index .col:nth-child(3) .float-left {
+  background: url(https://index.tnwcdn.com/images/dbdd131125b205e78d7ce6c9fdb56c3bdf6ad878.png);
+  background-size: contain;
+}
+
+.index .col:nth-child(4) .float-left {
+  background: url(https://index.tnwcdn.com/images/b010afb64d5078c5c0ef7d93049f0b1acb3a103c.jpg);
+  background-size: contain;
 }
 
 i{
