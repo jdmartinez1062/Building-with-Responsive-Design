@@ -540,7 +540,6 @@ span.share {
 }
 .latest h2 {
   display: inline-block;
-  width: max-content;
   margin-bottom: 24px;
   font: 28px "Avalon", sans-serif;
   color: #f42;
@@ -771,12 +770,107 @@ a.index-me-info{
   
   
 }
+.interest{
+  width: 368px;
+}
+.interest-block {
+  width: 368px;
+  height: 276px;
+  position: relative;
+  background-color: #000;
+}
+.interest-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg");
+  background-size: contain;
+}
+.interest-block div{
+  z-index: 10;
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.interest .interest-block h5{
 
+  text-transform: uppercase;
+  font: 14px "Shentox", sans-serif;
+  color: #fff;
+  padding: 0 0 0.5em 0;
+}
+.interest .interest-block h2{
+ 
+  margin-bottom: 10px;
+}
+.interest .interest-block h2 a{
+  line-height: 0.9em;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  word-spacing: 0.09em;
+}
+.interest > div:last-child > div {
+  padding-left: 10px;
+}
+.interest > div:last-child  {
+  background: rgba(255,68,34,.06);
 
+}
+.clear{
+  clear: both;
+}
+.interest .bot-list{
+  padding: 0;
+}
+.interest h5{
+  text-transform: uppercase;
+  font: 14px "Shentox", sans-serif;
+  color: #f42;
+  padding: 10px 0 5px 0;
+}
+.interest h2{
+  
+  font: 14px "Avalon", sans-serif;
+  color: #f42;
+  clear: none;
+  display: inline;
+  padding-bottom: 5px;
+}
+.latest-img{
+  display: inline-block;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pocket-Casts-hed.jpg); 
+  height: 96px;
+  background-size: cover;
+  background-position:50% 50%;
+  width: 96px;
+  float: right;
+}
+.interest ul li span{
+  display: inline-block;
+  width: 4px;
+  height: 4px;;
+}
+.interest ul li p{
+  display: inline;
+ 
+}
+.interest ul li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.interest ul li span::before{
+  border-radius: 50%;
+  height:4px;
+  color:#f42;
+  display: block;
 
-
-
-
+}
 
 @media screen and (max-width: 479px) {
   .latest-row {
