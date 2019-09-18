@@ -169,11 +169,24 @@ a {
   width: 100%;
 }
 
-.column {
+.latest-row {
   display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+  margin: -8px;
+  padding: 4px;
+}
+
+.col {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 8px;
+  position: relative;
+}
+
+.col-3 {
+  flex-basis: 25%;
+  max-width: 25%;
 }
 
 .nav-container {
@@ -467,4 +480,123 @@ span.share {
 
 .bot-list li span > p {
   margin-left: 4px;
+}
+
+.wrapper {
+  flex: 1 1 100%;
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 20px;
+}
+
+.latest {
+  margin-bottom: 4em;
+  padding-top: 24px;
+  display: block;
+}
+
+.grid-cell {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.latest-row li {
+  height: 251px;
+  width: 294px;
+}
+
+.article-margin {
+  margin-top: 150px;
+}
+
+.latest h2 {
+  margin-bottom: 24px;
+  font: 28px "Avalon", sans-serif;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.story {
+  height: 227px;
+  width: 270px;
+}
+
+.story-image {
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 135px;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.story-title {
+  font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: #000;
+}
+
+.story-bottom {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  display: flex;
+  width: 270px;
+  height: 24px;
+  align-items: flex-end;
+}
+
+.story-bottom li {
+  display: flex;
+  align-items: flex-end;
+  height: 20px;
+}
+
+.story-bottom li:first-child {
+  max-width: max-content;
+}
+
+.story-bottom li:first-child::after {
+  content: "\B7";
+  margin: 0 4px;
+}
+
+.story-bottom li:last-child {
+  width: 71.9px;
+}
+
+.timeago {
+  position: relative;
+}
+
+.timeago::before {
+  display: inline-block;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 4px;
+  min-width: 140px;
+  padding: 4px 8px;
+  text-align: center;
+  content: attr(data-full-date);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
 }
