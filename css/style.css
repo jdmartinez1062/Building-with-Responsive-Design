@@ -975,8 +975,72 @@ a.index-me-info {
   background-color: #fff;
 }
 
+.bottom {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-deals {
+  padding: 8px;
+}
+
+.story-container {
+  height: 274.65px;
+  width: 270px;
+}
+
+.story-image-bottom {
+  background-color: #000;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 135px;
+  overflow: hidden;
+  padding-top: 74.5%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+  flex: 1 1 100%;
+}
+
+.story-deal {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+  margin: 8px 12px 0 0;
+}
+
+.story-deal div {
+  transform: rotate(45deg);
+  font: 900 14px "Arimo", "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  left: 8px;
+  top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.story-price {
+  display: flex;
+
+}
+
 @media screen and (max-width: 479px) {
   .latest-row {
     flex-flow: column wrap;
   }
 }
+
