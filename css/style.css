@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -108,6 +108,8 @@ section {
 
 body {
   line-height: 1;
+  font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
+  background: #fff;
 }
 
 ol,
@@ -136,11 +138,6 @@ table {
 html {
   font-size: 14px;
   line-height: 1;
-}
-
-body {
-  font-family: "Arimo", "Helvetica Neue", Arial, sans-serif;
-  background: #fff;
 }
 
 *,
@@ -184,8 +181,8 @@ a {
   padding: 8px;
   position: relative;
 }
+
 .index .col {
- 
   padding: 0;
   margin-top: 25px;
 }
@@ -368,7 +365,6 @@ a {
 .width-35 .second-side-new {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/pic-796x417.png");
   background-position: 50% 50%;
-  background-size: contain;
   background-clip: content-box;
   background-size: cover;
   padding: 4px 0 0 0;
@@ -378,7 +374,6 @@ a {
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
   background-size: cover;
   background-clip: content-box;
-  position: relative;
   mix-blend-mode: lighten;
   z-index: 4;
   position: absolute;
@@ -500,12 +495,6 @@ span.share {
   padding-top: 24px;
   display: block;
 }
-.latest {
-  margin-bottom: 4em;
-  padding-top: 24px;
-  display: block;
-}
-
 
 .grid-cell {
   flex-direction: column;
@@ -519,25 +508,26 @@ span.share {
 
 .article-margin {
   margin-top: 50px;
-  
 }
 
-.index > div{
+.index > div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.index > div > div{
-  max-width: 270px ;
+.index > div > div {
+  max-width: 270px;
   min-width: 200px;
   height: 270px;
   background: #fffaf8;
 }
-.latest .index h2{
-  margin:0;
+
+.latest .index h2 {
+  margin: 0;
 }
+
 .latest h2 {
   display: inline-block;
   margin-bottom: 24px;
@@ -546,13 +536,14 @@ span.share {
   font-weight: 700;
   line-height: 1.1;
 }
-.arrow{
+
+.arrow {
   display: inline-block;
   background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" stroke="%23F42" stroke-width="3" stroke-miterlimit="10" d="M4.75 1.5l6.5 6.5-6.5 6.5"/></svg>');
   height: 16px;
   width: 16px;
-
 }
+
 .story {
   height: 227px;
   width: 270px;
@@ -642,56 +633,60 @@ span.share {
   opacity: 0;
 }
 
-.funding-index{
+.funding-index {
   display: flex;
   flex-direction: row;
-  width:max-content;
+  width: max-content;
   font-weight: 500;
   font: 16px "Arimo", "Helvetica Neue", Arial, sans-serif;
   color: #f42;
 }
+
 .funding-index > li {
   border-left: 1px solid #f42;
   padding: 0 10px;
 }
 
 .funding-index li:first-child {
-  border:none ;
+  border: none;
 }
 
 .funding-index li:last-child {
   padding: none;
 }
 
-.orange-div{
-  background:#f42;
-  
+.orange-div {
+  background: #f42;
 }
-.orange-div h3{
+
+.orange-div h3 {
   padding: 10px;
   margin-left: 70px;
   font: 700 16px "Arimo", "Helvetica Neue", Arial, sans-serif;
   color: #fff;
 }
-.index-me{
-  background: rgba(255,68,34,.08);
+
+.index-me {
+  background: rgba(255, 68, 34, 0.08);
   padding: 10px;
 }
-.index-me p{
+
+.index-me p {
   margin-left: 70px;
-  
 }
-.index-me p:first-child{
+
+.index-me p:first-child {
   color: #000;
   font: 700 18px "Avalon", sans-serif;
-  
 }
-.index-me p:last-child{
+
+.index-me p:last-child {
   color: #808080;
   font: 100 12px "Shentox", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
 .float-left {
   float: left;
   background-size: contain;
@@ -721,65 +716,63 @@ span.share {
   background-size: contain;
 }
 
-i{
+i {
   height: 16px;
   width: 16px;
   display: inline-block;
 }
-a.index-me-info{
+
+a.index-me-info {
   display: flex;
   align-items: center;
   height: max-content;
-  
 }
-.index-me-info p{
+
+.index-me-info p {
   margin-left: 10px;
   font: 13px "Arimo", "Helvetica Neue", Arial, sans-serif;
   color: #555;
 }
 
-.info-div > div{
-  
+.info-div > div {
   padding: 16px;
-  
 }
-.info-div > div:first-child{
-  
-  border-bottom: 1px solid rgba(255,68,34,.25);
-}
-.info-div > div:last-child a p{
 
+.info-div > div:first-child {
+  border-bottom: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.info-div > div:last-child a p {
   font-size: 12px;
   line-height: 1.7em;
-
 }
-.info-div > div:last-child a p span{
 
+.info-div > div:last-child a p span {
   color: #aaa;
 }
-.tag{
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) ;
+
+.tag {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
   background-position: -976px -976px;
-  
-  
 }
-.case
-{
-  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) ;
+
+.case {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
   background-position: -48px -48px;
-  
-  
 }
-.interest{
+
+.interest {
   width: 368px;
 }
+
 .interest-block {
   width: 368px;
   height: 276px;
   position: relative;
   background-color: #000;
 }
-.interest-img{
+
+.interest-img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -787,7 +780,38 @@ a.index-me-info{
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/whatsapp-368x276.jpg");
   background-size: contain;
 }
-.interest-block div{
+
+.fl-end article:nth-child(2) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Huawei-Mate-30-Pro-368x276.jpg");
+  
+}
+.fl-end article:nth-child(3) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/alexkarp-368x276.jpg");
+  
+}
+.fl-end article:nth-child(4) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png");
+  
+}
+.fl-end article:nth-child(5) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/download26-368x276.png");
+  
+}
+
+.fl-end article:nth-child(6) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+}
+.fl-end article:nth-child(7) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg");
+}
+
+.fl-end article:nth-child(8) .interest-img{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Rockstar-Launcher-368x276.jpg");
+}
+
+
+
+.interest-block div {
   z-index: 10;
   position: relative;
   display: flex;
@@ -797,79 +821,158 @@ a.index-me-info{
   flex-direction: column;
   justify-content: flex-end;
 }
-.interest .interest-block h5{
 
+.interest .interest-block h5 {
   text-transform: uppercase;
   font: 14px "Shentox", sans-serif;
   color: #fff;
   padding: 0 0 0.5em 0;
 }
-.interest .interest-block h2{
- 
+
+.interest .interest-block h2 {
   margin-bottom: 10px;
 }
-.interest .interest-block h2 a{
+
+.interest .interest-block h2 a {
   line-height: 0.9em;
   font-size: 20px;
   letter-spacing: 0.02em;
   word-spacing: 0.09em;
 }
-.interest > div:last-child > div {
-  padding-left: 10px;
-}
-.interest > div:last-child  {
-  background: rgba(255,68,34,.06);
 
+.interest > div > div:last-of-type > div {
+  padding-left: 10px;
+  
 }
-.clear{
+
+.interest > div:last-child {
+  background: rgba(255, 68, 34, 0.06);
+}
+
+.clear {
   clear: both;
 }
-.interest .bot-list{
+
+.interest .bot-list {
   padding: 0;
 }
-.interest h5{
+
+.interest h5 {
   text-transform: uppercase;
   font: 14px "Shentox", sans-serif;
   color: #f42;
   padding: 10px 0 5px 0;
 }
-.interest h2{
-  
+
+.interest div h2 {
   font: 14px "Avalon", sans-serif;
   color: #f42;
   clear: none;
   display: inline;
   padding-bottom: 5px;
+  padding-right: 20px;
 }
-.latest-img{
-  display: inline-block;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pocket-Casts-hed.jpg); 
+
+.latest-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pocket-Casts-hed.jpg");
   height: 96px;
   background-size: cover;
-  background-position:50% 50%;
+  background-position: 50% 50%;
   width: 96px;
   float: right;
 }
-.interest ul li span{
-  display: inline-block;
-  width: 4px;
-  height: 4px;;
+
+.fl-end article:nth-child(2) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/CHEAPASUS-1.png");
+
 }
-.interest ul li p{
-  display: inline;
- 
+.fl-end article:nth-child(3) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/google-pay-hed.png");
+
 }
-.interest ul li{
+.fl-end article:nth-child(4) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg");
+
+}
+.fl-end article:nth-child(5) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-design105.png");
+
+}
+
+.fl-end article:nth-child(6) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/amzcsh.jpg");
+
+}
+.fl-end article:nth-child(7) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg");
+
+}
+
+.fl-end article:nth-child(8) .latest-img{
+
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-105300-e1568883419637.png");
+
+}
+
+
+.interest > div > ul > li > a  {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.interest > div > ul > li > a > span {
+  margin-left: -5px;
+  width: 14px;
+  height: 14px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  
 }
-.interest ul li span::before{
+.interest > div > ul > li > a > span span {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
-  height:4px;
-  color:#f42;
-  display: block;
+  background-color: #f42;
+  
+}
 
+.interest > div > ul li a p {
+  display: inline-block;
+  width: calc(1.98 * 100%  + 151px);
+  color:#555;
+  margin-left: 5px;
+  
+}
+
+.fl-end{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.fl-end article{
+  padding: 12px;
+}
+
+.interest > div > ul > li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0 10px 0 ;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 479px) {
