@@ -781,31 +781,31 @@ a.index-me-info {
   background-size: contain;
 }
 
-.fl-end article:nth-child(2) .interest-img{
+.fl-end article:nth-child(2) .interest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Huawei-Mate-30-Pro-368x276.jpg");
-  
-}
-.fl-end article:nth-child(3) .interest-img{
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/alexkarp-368x276.jpg");
-  
-}
-.fl-end article:nth-child(4) .interest-img{
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png");
-  
-}
-.fl-end article:nth-child(5) .interest-img{
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/download26-368x276.png");
-  
 }
 
-.fl-end article:nth-child(6) .interest-img{
+.fl-end article:nth-child(3) .interest-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/alexkarp-368x276.jpg");
+}
+
+.fl-end article:nth-child(4) .interest-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png");
+}
+
+.fl-end article:nth-child(5) .interest-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/download26-368x276.png");
+}
+
+.fl-end article:nth-child(6) .interest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
 }
-.fl-end article:nth-child(7) .interest-img{
+
+.fl-end article:nth-child(7) .interest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg");
 }
 
-.fl-end article:nth-child(8) .interest-img{
+.fl-end article:nth-child(8) .interest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Rockstar-Launcher-368x276.jpg");
 }
 
@@ -842,7 +842,6 @@ a.index-me-info {
 
 .interest > div > div:last-of-type > div {
   padding-left: 10px;
-  
 }
 
 .interest > div:last-child {
@@ -882,51 +881,40 @@ a.index-me-info {
   float: right;
 }
 
-.fl-end article:nth-child(2) .latest-img{
-
+.fl-end article:nth-child(2) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/CHEAPASUS-1.png");
-
 }
-.fl-end article:nth-child(3) .latest-img{
 
+.fl-end article:nth-child(3) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/google-pay-hed.png");
-
 }
-.fl-end article:nth-child(4) .latest-img{
 
+.fl-end article:nth-child(4) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg");
-
 }
-.fl-end article:nth-child(5) .latest-img{
 
+.fl-end article:nth-child(5) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Untitled-design105.png");
-
 }
 
-.fl-end article:nth-child(6) .latest-img{
-
+.fl-end article:nth-child(6) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/amzcsh.jpg");
-
 }
-.fl-end article:nth-child(7) .latest-img{
 
+.fl-end article:nth-child(7) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg");
-
 }
 
-.fl-end article:nth-child(8) .latest-img{
-
+.fl-end article:nth-child(8) .latest-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-105300-e1568883419637.png");
-
 }
 
 
-.interest > div > ul > li > a  {
+.interest > div > ul > li > a {
   display: flex;
   flex-direction: row;
-  
-  
 }
+
 .interest > div > ul > li > a > span {
   margin-left: -5px;
   width: 14px;
@@ -935,34 +923,32 @@ a.index-me-info {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
+
 .interest > div > ul > li > a > span span {
   display: inline-block;
   width: 4px;
   height: 4px;
   border-radius: 50%;
   background-color: #f42;
-  
 }
 
 .interest > div > ul li a p {
   display: inline-block;
   width: calc(1.98 * 100%  + 151px);
-  color:#555;
+  color: #555;
   margin-left: 5px;
-  
 }
 
-.fl-end{
+.fl-end {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
   margin-left: -12px;
   margin-right: -12px;
 }
-.fl-end article{
+
+.fl-end article {
   padding: 12px;
 }
 
@@ -970,7 +956,7 @@ a.index-me-info {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 0 10px 0 ;
+  padding: 10px 0 10px 0;
   border-bottom: 1px solid #e2e2e2;
   background-color: #fff;
 }
@@ -1033,9 +1019,128 @@ a.index-me-info {
   color: #000;
 }
 
+span.cover-logo {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  display: inline-block;
+  height: 9px;
+  width: 38px;
+  background-size: cover;
+  margin-right: 4px;
+}
+
 .story-price {
   display: flex;
+}
 
+footer {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+footer section:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #131313;
+}
+
+footer section:last-child {
+  margin: auto;
+}
+
+footer section:last-child div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #aaa;
+}
+
+footer li p {
+  font: 13px "Shentox", sans-serif;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+footer ul:last-child {
+  margin-top: 0;
+}
+
+footer li {
+  margin: 0 10px 0 10px;
+}
+
+footer ul:first-child li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  background: #333;
+}
+
+footer i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-size: 1296px 1296px;
+  background-position: -272px -272px;
+}
+
+footer li:nth-child(2) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -1024px -1024px;
+}
+
+footer li:nth-child(3) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -1280px -1280px;
+}
+
+footer li:nth-child(4) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -416px -416px;
+}
+
+footer li:nth-child(5) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -672px -672px;
+}
+
+footer li:nth-child(6) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -816px -816px;
+}
+
+footer li:nth-child(7) i {
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+  background-position: -576px -576px;
+}
+
+.love {
+  color: #f42;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.stack-logo {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg");
+  display: inline-block;
+  height: 9px;
+  width: 66px;
+  background-size: cover;
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 479px) {
