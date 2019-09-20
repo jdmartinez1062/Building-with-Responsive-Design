@@ -179,12 +179,12 @@ a {
   flex-direction: column;
   flex: 0 0 auto;
   padding: 8px;
-  position: relative;
+  
 }
 
 .index .col {
-  padding: 0;
-  margin-top: 25px;
+  background-clip: content-box;
+  
 }
 
 .col-3 {
@@ -195,6 +195,9 @@ a {
 .nav-container {
   background: #fff;
   height: auto;
+  position: sticky;
+  top:0px;
+  z-index: 99;
 }
 
 .nav-bar-top-container {
@@ -242,8 +245,14 @@ a {
   justify-content: space-around;
   height: 32px;
   margin-left: 40px;
+  list-style:none;
 }
-
+.nav-company li {
+  margin:6px;
+}
+.nav-company li:last-child {
+  margin-right: 0;
+}
 .nav-bar-center {
   color: #555;
   height: 48px;
@@ -493,13 +502,10 @@ span.share {
 .latest {
   margin-bottom: 4em;
   padding-top: 24px;
-  display: block;
+  display: block;s
 }
 
-.grid-cell {
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 .latest-row li {
   height: 251px;
@@ -509,19 +515,28 @@ span.share {
 .article-margin {
   margin-top: 50px;
 }
-
-.index > div {
+.index > div{
+ 
+}
+.index > div > div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+.index > div > div:last-child {
+  
+  min-height: 290px;
+  margin-top: 25px;
+  align-items: stretch;
+}
 
-.index > div > div {
+.index > div  > div > div {
   max-width: 270px;
   min-width: 200px;
-  height: 270px;
+  min-height: 100%;
   background: #fffaf8;
+  
 }
 
 .latest .index h2 {
@@ -698,11 +713,12 @@ span.share {
   height: 60px;
   width: 60px;
   z-index: 2;
-  margin: -30px 0 -30px 10px;
+  margin: -30px 0 -30px 10px; 
+  flex: 0 0 60px;
 }
 
 .index .col:nth-child(1) .float-left {
-  background: url(https://index.tnwcdn.com/images/bc9fa84b022e57d2ff307ac8f481bd324a52ea7d.jpg);
+  background: url(https://index.tnwcdn.com/images/bc9fa84b022e57d2ff307ac8f481bd324a52ea7d.jpg) no-repeat;
   background-size: contain;
 }
 
@@ -1172,4 +1188,9 @@ footer li:nth-child(7) i {
   .latest-row {
     flex-flow: column wrap;
   }
+}
+
+.col-2 {
+  flex-basis: 33.333333%;
+  max-width: 33.333333%;
 }
