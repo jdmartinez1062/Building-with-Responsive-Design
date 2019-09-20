@@ -209,6 +209,43 @@ a {
   justify-content: space-between;
 }
 
+.nav-logo {
+
+  position: absolute;
+  left: 0;
+  top: 32px;
+  display: none;
+}
+
+.nav-logo a {
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+  position: relative;
+  height: 80px;
+  
+  display: block;
+  padding: 16px 20px;
+  width: 106px;
+}
+
+.nav-logo img {
+  display: block;
+  height: 16px;
+  position: relative;
+  width: 66px;
+  
+}
+
+.hide {
+  display: none;
+}
+.show {
+
+  display: block;
+  
+}
+
+
+
 .nav-twn {
   display: flex;
   flex-direction: row;

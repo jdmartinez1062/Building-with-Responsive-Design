@@ -13,6 +13,20 @@
 
 <body>
 
+    <script>
+            myID = document.getElementById(logo);
+    
+            var myScrollFunc = function() {
+            var y = window.scrollY;
+            if (y >= 32) {
+                myID.className = "nav-logo show"
+            } else {
+                myID.className = "nav-logo hide"
+            }
+            };
+    
+            window.addEventListener("scroll", myScrollFunc);
+        </script>
 
     <div class="layout">
             <div class="nav-bar-top-container row">
@@ -55,7 +69,11 @@
                     </div>
                 </div>
         <nav class="nav-container row">
-            
+            <div class="nav-logo" id="logo">
+                <a>
+                    <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+                </a>
+            </div>            
            
             <div class="nav-bar-center row">
                 <ul class="ul-row">
