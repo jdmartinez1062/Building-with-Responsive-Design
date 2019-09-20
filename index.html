@@ -9,25 +9,12 @@
     <link href="//db.onlinewebfonts.com/c/57acd77a5a43cb11d805162d859eac55?family=Shentox" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
     
+
 </head>
 
 <body>
 
-    <script>
-            myID = document.getElementById(logo);
     
-            var myScrollFunc = function() {
-            var y = window.scrollY;
-            if (y >= 32) {
-                myID.className = "nav-logo show"
-            } else {
-                myID.className = "nav-logo hide"
-            }
-            };
-    
-            window.addEventListener("scroll", myScrollFunc);
-        </script>
-
     <div class="layout">
             <div class="nav-bar-top-container row">
                     <ul class="nav-twn">
@@ -69,13 +56,28 @@
                     </div>
                 </div>
         <nav class="nav-container row">
-            <div class="nav-logo" id="logo">
-                <a>
-                    <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
-                </a>
-            </div>            
+                
            
             <div class="nav-bar-center row">
+                <div class="nav-logo hide" id="logo">
+                        <a>
+                            <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+                        </a>
+                        <ul id ="drop-menu" class="nav-menu hide">
+                            <li>
+                                <a>
+                                    <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+                                </a>
+                            </li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                            <li><a href=""><p>Events</p></a></li>
+                        </ul>
+                </div>       
                 <ul class="ul-row">
                     <li><a href="">Latest</a></li>
                     <li><a href="">Hard Fork</a></li>
@@ -876,6 +878,10 @@
     </div>
             
 </body>
+
+<script src="logoappear.js"></script>
+<script src="drop-menu.js"></script>
+
 
 
 </html>

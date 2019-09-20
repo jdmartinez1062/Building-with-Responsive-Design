@@ -211,21 +211,66 @@ a {
 
 .nav-logo {
 
-  position: absolute;
-  left: 0;
-  top: 32px;
-  display: none;
+height: 48px;
+
+
 }
+.nav-bar-center .nav-logo li:first-child{
+  display: flex;
+  height:48px;
+  padding: 0;
+  margin: 0;
+}
+ul.hide{
+  
+  transition: transform .15s ease-in-out;
+  
+}
+ul.show{
+  transition: transform .15s ease-in-out;
+  float: left;
+  margin-left:-106px;
+  width:106px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+
+}
+ul.show li:first-child{
+  
+ height: 32px ;
+ margin-top:78px;
+}
+ul.show li{
+  
+  height: 32px ;
+  
+}
+ul.show li a{
+  
+  background: rgba(0, 0, 0, 0.95)
+ 
+ }
+ ul.show li{
+  
+  height: ;
+ 
+ }
+
+
 
 .nav-logo a {
   background: linear-gradient(to bottom right,#c09,#f42 85%);
   position: relative;
-  height: 80px;
+  height: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
   
-  display: block;
-  padding: 16px 20px;
   width: 106px;
 }
+
 
 .nav-logo img {
   display: block;
@@ -240,8 +285,12 @@ a {
 }
 .show {
 
-  display: block;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+  z-index: 2;
+  position: relative;
 }
 
 
@@ -293,6 +342,7 @@ a {
 .nav-bar-center {
   color: #555;
   height: 48px;
+  align-items: center;
 }
 
 .nav-bar-center ul {
