@@ -1284,13 +1284,26 @@ footer li:nth-child(7) i {
   margin-left: 4px;
 }
 
-@media screen and (max-width: 479px) {
-  .latest-row {
-    flex-flow: column wrap;
-  }
-}
-
 .col-2 {
   flex-basis: 33.333333%;
   max-width: 33.333333%;
+}
+
+
+
+
+@media screen and (max-width:769px) {
+
+  .story-title {
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
+  .col-3 {
+    flex-basis: 33.33333%;
+    max-width: 30.333%;
+  }
+  
 }
