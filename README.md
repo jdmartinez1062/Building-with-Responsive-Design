@@ -35,9 +35,9 @@
     A The Next Web Mimick page created using bootstrap
     <br />
     <br />
-    <a href="https://rawcdn.githack.com/jdmartinez1062/Building-with-Responsive-Design/86278d5883f4d9464dc45b5e785f81a08bcaabe1/index.HTML">View Demo</a>
+    <a href="https://raw.githack.com/jdmartinez1062/Building-with-Responsive-Design/master/index.html">View Demo</a>
     ·
-    <a href="https://www.The Next Web.com/">Original Page</a>
+    <a href="https://thenextweb.com/">Original Page</a>
     
   </p>
 </p>
@@ -56,7 +56,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://rawcdn.githack.com/jdmartinez1062/Building-with-Responsive-Design/86278d5883f4d9464dc45b5e785f81a08bcaabe1/index.HTML)
+[![Product Name Screen Shot][product-screenshot]](https://raw.githack.com/jdmartinez1062/Building-with-Responsive-Design/master/index.html)
 
 [Microverse](https://www.microverse.org/) Fifth HTML and CSS Main Curriculum Project "Building with Responsive Design"
 
