@@ -3,13 +3,13 @@ var divimg = document.getElementById('logo');
 var list=document.getElementById('drop-menu');
 
 
-document.getElementById("logo").onmouseover = function() {mouseOver()};
-document.getElementById("logo").onmouseout = function() {mouseOut()};
+divimg.onmouseover = function() {mouseOver()};
+divimg.onmouseout = function() {mouseOut()};
 
 function mouseOver() {
-  document.getElementById("drop-menu").className = "nav-menu show";
+  list.className = "nav-menu show";
 }
 
 function mouseOut() {
-  document.getElementById("drop-menu").className = "nav-menu hide";
+  list.className = "nav-menu hide";
 }
