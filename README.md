@@ -32,7 +32,7 @@
   <h3 align="center">The Next Web Mimick page</h3>
 
   <p align="center">
-    A The Next Web Mimick page created using bootstrap
+    A  responsive "The Next Web" mimick page 
     <br />
     <br />
     <a href="https://raw.githack.com/jdmartinez1062/Building-with-Responsive-Design/master/index.html">View Demo</a>
