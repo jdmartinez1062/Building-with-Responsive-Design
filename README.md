@@ -86,7 +86,8 @@ git clone https:://github.com/jdmartinez1062/Building-with-Responsive-Design.git
 ## Contact
 
 Juan D. Martinez - jd.martinez1062@gmail.com
-Mario Barrios Contact - mariobarriossalazar@outlook.com
+
+Mario Barrios - mariobarriossalazar@outlook.com
 
 Project Link: [https://github.com/jdmartinez1062/Building-with-Responsive-Design](https://github.com/jdmartinez1062/Building-with-Responsive-Design)
 
